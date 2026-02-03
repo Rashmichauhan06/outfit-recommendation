@@ -14,7 +14,7 @@ public class DataLoader {
     @Bean
     CommandLineRunner loadData(ProductRepository repository) {
         return args -> {
-            // If you want fresh seed every time, comment this out.
+           
             if (repository.count() > 0) return;
 
             List<Product> products = List.of(
