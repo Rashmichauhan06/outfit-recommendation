@@ -19,7 +19,7 @@ public class DataLoader {
 
             List<Product> products = List.of(
 
-                // ---------------- ACCESSORIES (5) ----------------
+                // ---------------- ACCESSORIES----------------
                 Product.builder()
                     .name("AI - Crew Length Socks")
                     .category("ACCESSORY")
@@ -64,9 +64,7 @@ public class DataLoader {
                     .imageUrl("https://images.pexels.com/photos/701877/pexels-photo-701877.jpeg?auto=compress&cs=tinysrgb&w=800")
                     .build(),
 
-                 // -------- ACCESSORIES --------
-
-                 // OFFICE
+               
                Product.builder()
                      .name("Formal Leather Belt Black")
                      .category("ACCESSORY")
@@ -78,7 +76,7 @@ public class DataLoader {
                      .imageUrl("http://localhost:8089/images/belt.webp")
                      .build(),
 
-                 // PARTY
+               
               Product.builder()
                      .name("Metal Chain Necklace")
                      .category("ACCESSORY")
@@ -90,7 +88,7 @@ public class DataLoader {
                      .imageUrl("http://localhost:8089/images/metal-chain.webp")
                      .build(),
 
-                 // FESTIVE / ETHNIC
+               
                  Product.builder()
                      .name("Ethnic Silk Stole")
                      .category("ACCESSORY")
@@ -104,7 +102,7 @@ public class DataLoader {
 
 
 
-                // ---------------- TOPS (5) ----------------
+                // ---------------- TOPS----------------
                 Product.builder()
                     .name("Essentials Fleece Hoodie Black")
                     .category("TOP")
@@ -160,9 +158,7 @@ public class DataLoader {
                     .imageUrl("https://images.pexels.com/photos/6311387/pexels-photo-6311387.jpeg?auto=compress&cs=tinysrgb&w=800")
                     .build(),
                     
-                 // -------- TOPS --------
-
-                 // OFFICE
+                
                  Product.builder()
                      .name("Formal White Cotton Shirt")
                      .category("TOP")
@@ -174,7 +170,7 @@ public class DataLoader {
                      .imageUrl("http://localhost:8089/images/white-cotton.webp")
                      .build(),
 
-                 // PARTY
+               
                 Product.builder()
                      .name("Black Satin Party Shirt")
                      .category("TOP")
@@ -186,7 +182,7 @@ public class DataLoader {
                      .imageUrl("http://localhost:8089/images/black-satin.jpg")
                      .build(),
 
-                 // FESTIVE / ETHNIC
+               
                Product.builder()
                      .name("Ethnic Kurta Off White")
                      .category("TOP")
@@ -200,15 +196,7 @@ public class DataLoader {
 
 
 
-                // ---------------- BOTTOMS (6) ----------------
-                //
-               
-
-                // ✅ Black Cargo Pants (Wikimedia direct)
-                     
-                  // -------- BOTTOMS --------
-
-                  // OFFICE
+             
                   Product.builder()
                       .name("Formal Navy Blue Trousers")
                       .category("BOTTOM")
@@ -220,7 +208,7 @@ public class DataLoader {
                       .imageUrl("http://localhost:8089/images/navy.webp")
                       .build(),
 
-                  // PARTY
+                 
              Product.builder()
                       .name("Slim Fit Black Party Jeans")
                       .category("BOTTOM")
@@ -232,7 +220,7 @@ public class DataLoader {
                       .imageUrl("http://localhost:8089/images/black-jeans.webp")
                       .build(),
 
-                  // FESTIVE / ETHNIC
+                 
                   Product.builder()
                       .name("Ethnic Pajama Pants White")
                       .category("BOTTOM")
@@ -255,7 +243,7 @@ public class DataLoader {
                     .imageUrl("http://localhost:8089/images/black-cargo-pants.avif")
                     .build(),
 
-                // ✅ Brown Sweatpants (Pexels direct)
+              
                 Product.builder()
                     .name("Brown Sweatpants")
                     .category("BOTTOM")
@@ -301,11 +289,7 @@ public class DataLoader {
                     .build(),
 
 
-                // ---------------- FOOTWEAR (5) ----------------
-                    
-                 // -------- FOOTWEAR --------
-
-                 // OFFICE
+             
                 Product.builder()
                      .name("Black Leather Formal Shoes")
                      .category("FOOTWEAR")
@@ -317,7 +301,7 @@ public class DataLoader {
                      .imageUrl("http://localhost:8089/images/leather-black.webp")
                      .build(),
 
-                 // PARTY
+                
                  Product.builder()
                      .name("High Top Party Sneakers")
                      .category("FOOTWEAR")
@@ -329,7 +313,7 @@ public class DataLoader {
                      .imageUrl("http://localhost:8089/images/sneakers.avif")
                      .build(),
 
-                 // FESTIVE / ETHNIC
+                
                 Product.builder()
                      .name("Ethnic Brown Mojari")
                      .category("FOOTWEAR")
