@@ -226,4 +226,12 @@ Seasonal trend modeling
 Async background recommendation pre-computation
 Image-based similarity matching
 
-(Author: Rashmi Chauhan)
+## Demo
+
+A short screen recording demonstrates:
+- Backend API working via Postman
+- Frontend UI generating outfit recommendations
+- Explanation of recommendation logic and performance
+
+(Video link available in repository description)
+
